@@ -1,0 +1,59 @@
+# ===============================
+# 🧭 PODSTAWOWY .GITIGNORE DLA STRONY WWW
+# ===============================
+
+# System / IDE
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.idea/
+.vscode/
+*.code-workspace
+
+# Node / npm (jeśli kiedyś będziesz używać)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Kompilowane / cache / build
+dist/
+build/
+.cache/
+out/
+*.map
+
+# Systemowe ukryte pliki
+Icon?
+__MACOSX/
+
+# Zdjęcia źródłowe / surowe materiały (opcjonalnie)
+raw_images/
+backup/
+*.psd
+*.xcf
+*.ai
+*.sketch
+
+# Lokalne ustawienia / prywatne dane
+.env
+.env.*
+*.local
+
+# Backupy
+*.old
+*.orig
+*.save
+*.bak
+
+# ===============================
+# ✅ Pozostaw tylko pliki:
+# index.html, style.css, script.js, Profil.jpg itd.
+# ===============================
